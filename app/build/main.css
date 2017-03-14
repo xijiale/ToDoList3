@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    width:686px;
+    border: 1px solid #cdcdcd;
+    margin: 300px auto;
+}
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #323232;
+}
+h2 {
+
+    float: left;
+    color: #DDDDDD;
+    margin-left: 35px;
+    line-height: 50px;
+
+}
+.enter {
+    width: 300px;
+    height: 28px;
+    margin-left: 150px;
+    margin-top: 11px;
+    border-radius: 5px;
+
+}
+.desk {
+    width: 686px;
+    background-color: #CDCDCD;
+
+}
+.run {
+    width: 626px;
+    padding: 0 30px 10px;
+
+}
+
+.finish {
+    width: 626px;
+    padding: 0 30px 20px 30px;
+
+}
+.a {
+    height: 70px;
+    width: 100%;
+
+
+}
+.caption {
+    margin-top: 20px;
+    width: 200px;
+    line-height: 70px;
+    float: left;
+
+}
+.count {
+    float: right;
+    width: 20px;
+    margin-right: 50px;
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #E6E6FA;
+
+}
+.arr{
+    width: 570px;
+    height: 32px;
+    border:1px solid  #CDCDCD;
+    border-radius: 5px;
+    border-left: 5px solid #629A9C;
+    background-color: #FFFFFF;
+    margin-left: 35px;
+    margin-top: 15px;
+
+}
+.inputtype {
+    margin: 9px 12px;
+
+
+}
+.array {
+    width: 570px;
+    height: 32px;
+    border:1px solid  #CDCDCD;
+    border-radius: 5px;
+    border-left: 5px solid #B3B3B3;
+    background-color: #E6E6E6;
+    margin-left: 35px;
+    margin-top: 15px;
+    color: #676767;
+}
+.fa-minus-circle {
+    float: right;
+    margin-right: 30px;
+    margin-top: 7px;
+    color: #CDCDCD;
+}
+#sub {
+    width: 50px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #323232;
+    color: #323232;
+    float: right;
+    margin-top: 13px;
+    margin-right: 25px;
+    cursor: pointer;
+}
