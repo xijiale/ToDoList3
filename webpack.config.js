@@ -6,6 +6,7 @@
  var APP_PATH = path.resolve(ROOT_PATH,'app');
  var BUILD_PATH = path.resolve(ROOT_PATH,'build');
  module.exports = {
+     devtool: 'eval-source-map',
      entry: APP_PATH,
      output: {
          path: BUILD_PATH,
@@ -22,7 +23,14 @@
              {
                  test: /\.css$/,
                  loaders: ['style','css'],
-                 include: APP_PATH
+             },
+             {
+                 test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                 loader: "url-loader?limit=10000&mimetype=application/font-woff"
+             },
+             {
+                 test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                 loader: "file-loader"
              }
          ]
      },

@@ -7,6 +7,7 @@ define (function (require,exports,module) {
         add:function (key,value) {
             window.localStorage.setItem(key,value);
         },
+
         remove:function (key,value) {
             Array.prototype.removeByValue = function(val) {
                 for(var i=0; i<this.length; i++) {
@@ -18,9 +19,9 @@ define (function (require,exports,module) {
             }
             var arr = window.localStorage.getItem(key).split(',');
             arr.removeByValue(value);
-
             window.localStorage.setItem(key,arr);
         },
+
         getData:function (key) {
             if(window.localStorage.getItem(key))
                 return window.localStorage.getItem(key).split(',')
